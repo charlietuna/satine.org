@@ -1,0 +1,149 @@
+/*
+
+Theme Name: PressKit
+Theme URI: http://satine.org/
+Description: A minimalist WordPress theme designed specifically for advanced browsers.
+Version: 1.0
+Author: Charles Ying
+Author URI: http://satine.org/
+Tags: blue, custom header, fixed width, two columns, widgets
+
+*/
+
+/*
+Copyright (c) 2010, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.com/yui/license.html
+version: 3.2.0
+build: 2676
+*/
+html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}input,textarea,select{*font-size:100%;}legend{color:#000;}
+
+/* Typography */
+
+body { font-family: Palatino, Georgia, Times New Roman, serif; }
+
+h1, h2, h3 { font-family: futura-pt, Palatino, Georgia, Times New Roman, sans-serif; font-weight: 700; }
+
+code, .code { font-family: "Menlo", "American Typewriter", "Courier New", monospace; }
+
+/* Font Sizes */
+
+body { font-size: 16px; }
+h1 { font-size: 28px; }
+h2 { font-size: 28px; line-height: 130%; }
+h3, .widgettitle { font-size: 18px; line-height: 130%; }
+.entry h2, .entry h3 { font-size: 15px; }
+.description { font-size: 12px; }
+
+small {}
+
+#content { line-height: 1.6em; }
+blockquote.lengthy { font-size: 13px; line-height: 1.6em; }
+
+/* Colors and text treatment */
+
+h1, h2, h3 { color: #777; }
+
+b, strong { font-weight: bold; }
+em { font-style: italic; }
+
+body { background-color: transparent; }
+
+a { color: #339; text-decoration: none; }
+
+a:hover { color: #933; }
+
+h1>a, h2>a, h3>a { color: inherit; }
+
+h1 a { border-bottom-style: none; }
+
+h2 a:hover, h3 a:hover { color: #933; }
+
+code { display: block; border-left: 1px solid #933; padding: 9pt; margin: 9pt 0 9pt 0; }
+
+/*
+blockquote { display: block; background-color: #fff9e9; padding: 9pt 18pt 9pt 18pt; margin: 9pt 0 9pt 0; }
+*/
+
+blockquote { display: block; padding: 0pt 18pt 0pt 18pt; color: #555; text-align: inherit; }
+
+.entry cite { font-size: 11pt; display: block; color: #555; text-align: right; padding: 0pt 18pt 0pt 18pt; }
+
+.post ul li { list-style: square; }
+.post ol li { list-style: decimal; }
+
+ol.commentlist li { list-style: none; }
+
+/* Layout */
+
+#page { margin: 0 auto; width: 800px; }
+
+/* Spacing */
+
+.narrowcolumn { width: 620px; }
+.widecolumn { width: 720px; }
+.sidebar { width: 250px; }
+
+#header { padding-top: 48pt; }
+
+#footer { padding-top: 24pt; padding-bottom: 48pt; }
+
+.post { padding-bottom: 12pt; }
+
+h1, h2, h3 { margin: 18pt 0 0 0; }
+
+.entry { margin-top: 12pt; }
+
+p { margin: 12pt 0 12pt 0; }
+
+ul { margin: 12pt 0 12pt 0; }
+
+li { margin: 6pt 0 6pt 18pt; }
+
+cite { color: #933; font-style: italic; }
+
+table.navigation td { padding: 3px 10px 2px 0px; }
+
+table.navigation { margin: 12pt 0 18pt 0; }
+
+/* Sidebar styles */
+
+.sidebar 
+{
+	float: left; 
+	position: absolute;
+	top: 160px;
+	margin-left: 680px;
+	clear: both;
+}
+
+.sidebar { line-height: 1.6em; }
+
+.sidebar li { margin: 3pt 0 3pt 0; }
+
+.widgettitle { text-transform: uppercase; }
+
+/* Search treatment */
+
+#searchsubmit { display: none; }
+
+/* Advanced text treatment */
+
+/*
+blockquote 
+{ 
+    -webkit-border-radius: 10px; 
+    border: 1px solid #d0d0c1; 
+}
+*/
+
+/* Comment List treatment */
+
+ol.commentlist li { margin-left: 0; padding: 10pt; }
+
+ol.commentlist li.alt { background-color: #eee; }
+
+ol.commentlist img.avatar { float: left; margin-right: 12px; }
+
+ol.commentlist p { margin: 9pt 9pt 9pt 44px; }
